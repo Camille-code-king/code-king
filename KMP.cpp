@@ -1,8 +1,8 @@
 #include<stdio.h>
 #include<string.h>
 #include<stdlib.h>
-//目标：从0开始实现cmp算法
-//例如:aabccabc
+//鐩爣锛氫粠0寮�濮嬪疄鐜癱mp绠楁硶
+//渚嬪:aabccabc
 int* creatArrNext(char pattern[]) {
 	int len = (int)strlen(pattern);
 	int* next = (int*)malloc(sizeof(int) * len);
